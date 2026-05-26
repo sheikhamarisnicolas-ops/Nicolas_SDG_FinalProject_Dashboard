@@ -563,3 +563,26 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown(f"""
+<div style='
+    border-top: 1px solid rgba(118,120,237,0.2);
+    margin-top: 10px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+'>
+    <div>
+        <div style='font-family:Syne; font-size:16px; font-weight:800; color:{WHITE};'>Sheikha Maris Nicolas</div>
+        <div style='font-size:11px; color:{C2}; letter-spacing:2px; text-transform:uppercase; margin-top:3px;'>SDG 4 · Quality Education Dashboard</div>
+    </div>
+    <div style='text-align:right;'>
+        <div style='font-size:10px; color:rgba(255,255,255,0.3); line-height:1.8;'>
+            Data Sources: Our World in Data · World Bank · ILO · UNESCO<br>
+            191 Countries · 2000–2023 · OLS & Robust Regression
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
